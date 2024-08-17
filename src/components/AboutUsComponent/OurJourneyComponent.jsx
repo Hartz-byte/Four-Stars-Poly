@@ -23,7 +23,7 @@ const OurJourneyComponent = () => {
         <Box
           sx={{
             position: "absolute",
-            top: 1143,
+            top: 1133,
             left: 0,
             width: "100%",
             height: "560px",

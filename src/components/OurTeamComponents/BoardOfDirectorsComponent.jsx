@@ -65,7 +65,7 @@ const BoardOfDirectorsComponent = () => {
             key={index}
             sx={{
               width: !isMobile ? "1018px" : "300px",
-              height: !isMobile ? "269px" : "100%",
+              height: !isMobile ? "200px" : "100%",
               boxShadow: "0px 2px 6px 4px rgba(0, 0, 0, 0.1)",
               display: "flex",
               flexDirection: isMobile ? "column" : "row",
@@ -81,7 +81,7 @@ const BoardOfDirectorsComponent = () => {
                 alt="profile"
                 style={{ width: "235px", height: "270px" }}
               /> */}
-              <Box style={{ width: "235px", height: "270px" }} />
+              <Box style={{ width: "165px", height: "200px" }} />
             </Box>
 
             {/* right section */}

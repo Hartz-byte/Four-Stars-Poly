@@ -81,8 +81,8 @@ button:focus-visible {
   background-color: #000080;
   position: absolute;
   overflow: hidden;
-  margin-right: 83%;
-  margin-top: 14.5%;
+  margin-right: 1250px;
+  margin-top: 220px;
 }
 
 .slanting1:after {
@@ -97,12 +97,12 @@ button:focus-visible {
 
 .slanting2 {
   height: 6px;
-  width: 224px;
+  width: 216px;
   background-color: #000080;
   position: absolute;
   overflow: hidden;
-  margin-right: 87%;
-  margin-top: 10%;
+  margin-right: 1310px;
+  margin-top: 150px;
 }
 
 .slanting2:after {
@@ -120,8 +120,8 @@ button:focus-visible {
   background-color: #000080;
   position: absolute;
   overflow: hidden;
-  margin-right: 87%;
-  margin-top: 8%;
+  margin-right: 1320px;
+  margin-top: 120px;
 }
 
 .slanting3:after {
@@ -140,8 +140,8 @@ button:focus-visible {
   background-color: #000080;
   position: absolute;
   overflow: hidden;
-  margin-left: 82.2%;
-  margin-bottom: 14.5%;
+  margin-left: 1245px;
+  margin-bottom: 220px;
 }
 
 .slanting4:after {
@@ -160,8 +160,8 @@ button:focus-visible {
   background-color: #000080;
   position: absolute;
   overflow: hidden;
-  margin-left: 80.4%;
-  margin-bottom: 14.5%;
+  margin-left: 1105px;
+  margin-bottom: 220px;
 }
 
 .slanting-responsive4:after {
@@ -180,8 +180,8 @@ button:focus-visible {
   background-color: #000080;
   position: absolute;
   overflow: hidden;
-  margin-left: 85.6%;
-  margin-bottom: 10%;
+  margin-left: 1300px;
+  margin-bottom: 150px;
 }
 
 .slanting5:after {
@@ -200,8 +200,8 @@ button:focus-visible {
   background-color: #000080;
   position: absolute;
   overflow: hidden;
-  margin-left: 84.2%;
-  margin-bottom: 10%;
+  margin-left: 1160px;
+  margin-bottom: 155px;
 }
 
 .slanting-responsive5:after {
@@ -220,8 +220,8 @@ button:focus-visible {
   background-color: #000080;
   position: absolute;
   overflow: hidden;
-  margin-left: 86.5%;
-  margin-bottom: 8%;
+  margin-left: 1310px;
+  margin-bottom: 120px;
 }
 
 .slanting6:after {
@@ -240,8 +240,8 @@ button:focus-visible {
   background-color: #000080;
   position: absolute;
   overflow: hidden;
-  margin-left: 85%;
-  margin-bottom: 8%;
+  margin-left: 1170px;
+  margin-bottom: 130px;
 }
 
 .slanting-responsive6:after {

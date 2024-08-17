@@ -281,7 +281,7 @@ const GetInTouchWithUsComponent = ({ style }) => {
                 style={{
                   height: "38px",
                   // width: !isMobile ? "357px" : "",
-                  width: !isMobile ? "265px" : "",
+                  width: !isMobile ? "244px" : "",
                   borderRadius: "2px",
                   border: "none",
                   backgroundColor: "#F5F6F7",
@@ -335,7 +335,9 @@ const GetInTouchWithUsComponent = ({ style }) => {
                 </MenuItem>
                 <MenuItem value="hdpe-tapes">PP Tapes</MenuItem>
                 <MenuItem value="woven-bags">PP Woven Fabrics</MenuItem>
-                <MenuItem value="woven-fabrics">BOPP Lminated Woven Bags</MenuItem>
+                <MenuItem value="woven-fabrics">
+                  BOPP Lminated Woven Bags
+                </MenuItem>
               </Select>
             </Box>
 

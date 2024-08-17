@@ -41,7 +41,9 @@ const Infrastructure = () => {
       <IntroductionComponent items={infrastructureItems} pics={false} />
 
       {/* slider component */}
-      <SliderComponent2 settings={sliderSettings} sliderItem={sliderItem4} />
+      <Box mt={6}>
+        <SliderComponent2 settings={sliderSettings} sliderItem={sliderItem4} />
+      </Box>
 
       {/* banner */}
       <Banner items={bannerItem2} condition={true} style={true} />

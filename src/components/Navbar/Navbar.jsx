@@ -81,9 +81,9 @@ const Navbar = () => {
   };
 
   return (
-    <Box sx={{ flexGrow: 1, position:"fixed", width:"100%", zIndex:999 }}>
+    <Box sx={{ flexGrow: 1, marginBottom: "76px" }}>
       {/* app bar */}
-      <AppBar position="static">
+      <AppBar position="fixed">
         <Toolbar variant="dense" className="navbar">
           {/* mobile icon button */}
           <IconButton
@@ -155,6 +155,11 @@ const Navbar = () => {
             {/* quality-assurance button */}
             <NavLink to="/quality-assurance" className="nav-link">
               <Typography>Quality Assurance</Typography>
+            </NavLink>
+
+            {/* certificate button */}
+            <NavLink to="/certificate" className="nav-link">
+              <Typography>Certificate</Typography>
             </NavLink>
 
             {/* about button */}
@@ -247,9 +252,7 @@ const Navbar = () => {
               </Box>
               {/* products pages */}
               <Box ml={1} mt={1}>
-                <Typography onClick={handleTapesClick}>
-                  PP Tapes
-                </Typography>
+                <Typography onClick={handleTapesClick}>PP Tapes</Typography>
 
                 <Typography onClick={handleFabricsClick}>
                   PP Woven Fabrics
@@ -266,6 +269,11 @@ const Navbar = () => {
 
               <NavLink to="/quality-assurance" className="nav-link">
                 <Typography mt={1}>Quality Assurance</Typography>
+              </NavLink>
+
+              {/* certificate */}
+              <NavLink to="/certificate" className="nav-link">
+                <Typography mt={1}>Certificate</Typography>
               </NavLink>
 
               {/* about */}

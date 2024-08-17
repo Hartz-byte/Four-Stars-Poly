@@ -19,7 +19,7 @@ const HeaderComponent = ({ pic, text }) => {
       <img
         src={pic}
         alt="header-pic"
-        style={{ width: "100%", height: "246px", marginTop:"140px" }}
+        style={{ width: "100%", height: "246px" }}
       />
 
       {/* linear gradient effect */}

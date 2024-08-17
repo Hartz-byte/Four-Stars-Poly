@@ -49,9 +49,11 @@ const Sustainability = () => {
       />
 
       {/* slider component */}
-      <SliderComponent2 settings={sliderSettings} sliderItem={sliderItem5} />
+      <Box mt={4}>
+        <SliderComponent2 settings={sliderSettings} sliderItem={sliderItem5} />
+      </Box>
 
-      {/* about our product quality text component */}
+      {/* about component */}
       <AboutTextComponent
         items={sustainabilityItems2}
         // pics={true}

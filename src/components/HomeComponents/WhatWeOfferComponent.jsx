@@ -79,15 +79,16 @@ const WhatWeOfferComponent = () => {
           <img
             src={Pic1}
             alt="image"
-            style={{ width: "211px", height: "150px" }}
+            style={{ width: "211px", height: "170px" }}
           />
 
-          <Typography color={"#000080"} fontWeight={700} fontSize={18}>
+          <Typography mb={1.5} color={"#000080"} fontWeight={700} fontSize={18}>
             PP Tapes
           </Typography>
 
-          <Typography color={"#B3B3B3"} ml={1}>
-          Polypropylene tapes, known for their strength and durability, ideal for various packaging applications
+          <Typography mb={5} color={"#B3B3B3"} ml={1}>
+            Polypropylene tapes, known for their strength and durability, ideal
+            for various packaging applications
           </Typography>
         </Box>
 
@@ -119,8 +120,8 @@ const WhatWeOfferComponent = () => {
           </Typography>
 
           <Typography color={"#B3B3B3"}>
-            Versatile and robust woven fabrics <br /> made from PP,
-            suitable for <br />
+            Versatile and robust woven fabrics <br /> made from PP, suitable for{" "}
+            <br />
             agricultural, industrial, and <br /> commercial uses, customizable
             to <br />
             client needs.

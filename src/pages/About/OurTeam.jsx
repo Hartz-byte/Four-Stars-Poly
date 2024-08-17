@@ -24,12 +24,14 @@ const OurTeam = () => {
       <HeaderComponent pic={OurTeamPic} text={headerText} />
 
       {/* description component */}
-      <IntroductionComponent
-        items={ourteamItems}
-        pics={false}
-        condition={true}
-        image={OurTeamPic2}
-      />
+      <Box mb={4}>
+        <IntroductionComponent
+          items={ourteamItems}
+          pics={false}
+          condition={true}
+          image={OurTeamPic2}
+        />
+      </Box>
 
       {/* director's desk component */}
       <DirectorsDeskComponent />

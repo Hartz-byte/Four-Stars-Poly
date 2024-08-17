@@ -36,7 +36,6 @@ const IntroductionComponent = ({ items, pics, condition, image }) => {
           fontWeight={700}
           fontSize={24}
           color={"#000080"}
-          
         >
           {items[0].title}
         </Typography>
@@ -59,7 +58,7 @@ const IntroductionComponent = ({ items, pics, condition, image }) => {
             width: !isMobile ? "1128px" : "400px",
             height: "160px",
             marginTop: "40px",
-            marginBottom:"30px"
+            // marginBottom:"30px"
           }}
         >
           {/* description */}
@@ -116,7 +115,7 @@ const IntroductionComponent = ({ items, pics, condition, image }) => {
             style={{
               width: !isMobile ? "1100px" : "350px",
               height: !isMobile ? "436px" : "200px",
-              marginTop: !isMobile ? "60px" : "350px",
+              marginTop: !isMobile ? "60px" : "450px",
             }}
           />
         </Box>

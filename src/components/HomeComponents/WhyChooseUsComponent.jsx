@@ -50,7 +50,7 @@ const WhyChooseUsComponent = () => {
         {/* box 1 */}
         <Box
           sx={{
-            width: "256px",
+            width: "275px",
             height: "256px",
             boxShadow: "0px 2px 6px 4px rgba(0, 0, 0, 0.1)",
             display: "flex",
@@ -76,7 +76,7 @@ const WhyChooseUsComponent = () => {
         {/* box 2 */}
         <Box
           sx={{
-            width: "256px",
+            width: "275px",
             height: "256px",
             boxShadow: "0px 2px 6px 4px rgba(0, 0, 0, 0.1)",
             display: "flex",
@@ -107,7 +107,7 @@ const WhyChooseUsComponent = () => {
         {/* box 3 */}
         <Box
           sx={{
-            width: "256px",
+            width: "275px",
             height: "256px",
             boxShadow: "0px 2px 6px 4px rgba(0, 0, 0, 0.1)",
             display: "flex",
@@ -138,7 +138,7 @@ const WhyChooseUsComponent = () => {
         {/* box 4 */}
         <Box
           sx={{
-            width: "256px",
+            width: "275px",
             height: "256px",
             boxShadow: "0px 2px 6px 4px rgba(0, 0, 0, 0.1)",
             display: "flex",
