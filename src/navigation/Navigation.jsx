@@ -11,6 +11,7 @@ import Sustainability from "../pages/About/Sustainability";
 import OurTeam from "../pages/About/OurTeam";
 import AboutUs from "../pages/About/AboutUs";
 import EnquireUs from "../pages/EnquireUs/EnquireUs";
+import CertificatePage from "../pages/CertificatePage/CertificatePage";
 
 const Navigation = () => {
   return (
@@ -29,6 +30,8 @@ const Navigation = () => {
       <Route path="/about/sustainability" element={<Sustainability />} />
       <Route path="/about/our-team" element={<OurTeam />} />
       <Route path="/about/about-us" element={<AboutUs />} />
+
+      <Route path="/certificate" element={<CertificatePage />} />
     </Routes>
   );
 };

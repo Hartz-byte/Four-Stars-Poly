@@ -10,11 +10,13 @@ import AboutTextComponent from "../../components/QualityAssuranceComponents/Abou
 import CertificatesComponent from "../../components/QualityAssuranceComponents/CertificatesComponent";
 import QualityServicesComponent from "../../components/ProductsComponents/QualityServicesComponent";
 import FooterComponent from "../../components/HomeComponents/FooterComponent";
+import BoxesComponent from "../../components/QualityAssuranceComponents/BoxesComponent";
 
 import { assuranceItems } from "../../utils/IntroductionItem";
 import { sliderItem5 } from "../../utils/SliderItem";
 import { assuranceItems2 } from "../../utils/AboutTextItem";
 import { certificateItems } from "../../utils/CertificateItem";
+
 
 const QualityAssurance = () => {
   const isMobile = useMediaQuery("(max-width:600px");
@@ -47,7 +49,9 @@ const QualityAssurance = () => {
       <AboutTextComponent items={assuranceItems2} />
 
       {/* certificates component */}
-      <CertificatesComponent items={certificateItems} />
+      {/* <CertificatesComponent items={certificateItems} /> */}
+
+      <BoxesComponent />
 
       {/* quality services component */}
       <QualityServicesComponent style={true} />

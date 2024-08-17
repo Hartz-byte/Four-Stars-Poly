@@ -1,7 +1,7 @@
 export const bannerItem1 = [
   {
-    title1: "Lac Sq. Ft",
-    count: "125000",
+    title1: " Sq. Ft",
+    count: "200000",
     title2: "Sustainable Campus",
     description: "with green energy and waste water recycling",
   },
@@ -14,7 +14,7 @@ export const bannerItem1 = [
     count: "10",
     title1: "MT",
     title2: "Production Capacity",
-    description: "per annum",
+    description: "per day",
   },
   {
     count: "100",
@@ -33,7 +33,7 @@ export const bannerItem2 = [
       "State-of-the-art manufacturing facility located in Khandwa, Madhya Pradesh",
   },
   {
-    count: "125000",
+    count: "200000",
     title1: " sq. ft.",
     title2: "Sustainable Campus",
     description:
@@ -45,11 +45,11 @@ export const bannerItem2 = [
     description: "Featuring the latest in modern machinery and equipment.",
   },
   {
-    count: "10000",
-    title1: " MT per annum",
+    count: "10",
+    title1: " MT per day",
     title2: "Production Capacity",
     description:
-      "Annual production capacity, ensuring the ability to meet large-scale industrial demands efficiently.",
+      "Daily production capacity, ensuring the ability to meet large-scale industrial demands efficiently.",
   },
   {
     count: "1200",

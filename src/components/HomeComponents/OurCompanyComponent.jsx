@@ -71,13 +71,7 @@ const OurCompanyComponent = () => {
           </Typography>
 
           <Typography textAlign={"justify"}>
-            Four Stars Poly Private Limited, established in 2021, specializes in
-            manufacturing high-quality polypropylene woven fabrics and
-            eco-friendly BOPP packaging solutions. With a state-of-the-art
-            facility in Khandwa, Madhya Pradesh, spanning 55,000 square feet,
-            the company ensures superior quality through advanced manufacturing
-            processes and stringent quality control, achieving a daily
-            production capacity of 10 metric tons.
+          Four Stars Poly Private Limited, established in 2021, specializes in manufacturing high-quality polypropylene woven fabrics and eco-friendly BOPP packaging solutions. With a state-of-the-art facility in Khandwa, Madhya Pradesh, spanning 55,000 square feet, the company ensures superior quality through advanced manufacturing processes and stringent quality control, achieving a daily production capacity of 10 metric tons.
           </Typography>
 
           <button

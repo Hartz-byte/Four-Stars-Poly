@@ -68,11 +68,11 @@ const ProductionLineComponent = () => {
           />
 
           <Typography color={"#DBAB3C"} fontSize={24} fontWeight={700}>
-            Weaving Machines
+            Circular Looms
           </Typography>
 
           <Typography>
-            Weaving looms that provide precision and consistency in the
+            Circular looms that provide precision and consistency in the
             production of woven fabrics.
           </Typography>
 
@@ -168,11 +168,11 @@ const ProductionLineComponent = () => {
           />
 
           <Typography color={"#DBAB3C"} fontSize={24} fontWeight={700}>
-            Bag Stitching
+            BCS Machine
           </Typography>
 
           <Typography>
-            Bag stitching machines designed for producing strong, durable
+            BCS machines designed for producing strong, durable
             packaging solutions.
           </Typography>
 

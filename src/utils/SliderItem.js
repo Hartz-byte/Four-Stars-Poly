@@ -17,6 +17,10 @@ import SliderPic16 from "../assets/Images/SliderPic16.jpg";
 import SliderPic17 from "../assets/Images/SliderPic17.jpg";
 import SliderPic18 from "../assets/Images/SliderPic18.jpg";
 import SliderPic19 from "../assets/Images/SliderPic19.jpg";
+import SliderImage20 from "../assets/Images/Sustainabilty1.png"
+import SliderImage21 from "../assets/Images/Sustainability2.png"
+import SliderImage22 from "../assets/Images/Sustainability3.png"
+import SliderImage23 from "../assets/Images/Sustainability4.png"
 
 import AvatarImage1 from "../assets/Images/Avatar1.png";
 import AvatarImage2 from "../assets/Images/Avatar2.png";
@@ -58,23 +62,23 @@ export const sliderItem2 = [
 export const sliderItem3 = [
   {
     description:
-      "“The team at Four Stars Poly is fantastic. Their advanced manufacturing processes and stringent quality controls ensure that every product meets high standards.”",
-    name: "Emily",
-    country: "Canada",
+      "“We’ve been using Four Stars Poly’s BOPP laminated woven bags for our packaging needs, and the quality is outstanding”",
+    name: "Karan",
+    country: "India",
     img: AvatarImage1,
   },
   {
     description:
-      "“The team at Four Stars Poly is fantastic. Their advanced manufacturing processes and stringent quality controls ensure that every product meets high standards.”",
-    name: "Emily",
+      "Four Stars Poly offers exceptional quality in their PP tapes and woven fabrics. Highly recommend their services for their commitment to quality and innovation.",
+    name: "Vartika",
     country: "India",
     img: AvatarImage2,
   },
   {
     description:
-      "“The team at Four Stars Poly is fantastic. Their advanced manufacturing processes and stringent quality controls ensure that every product meets high standards.”",
-    name: "Emily",
-    country: "Australia",
+      "The team at Four Stars Poly is fantastic. Their advanced manufacturing processes and stringent quality controls ensure that every product meets high standards.",
+    name: "Sheena",
+    country: "India",
     img: AvatarImage3,
   },
 ];
@@ -96,16 +100,16 @@ export const sliderItem4 = [
 
 export const sliderItem5 = [
   {
-    img: SliderPic12,
+    img: SliderImage20,
   },
   {
-    img: SliderPic13,
+    img: SliderImage21,
   },
   {
-    img: SliderPic14,
+    img: SliderImage22,
   },
   {
-    img: SliderPic12,
+    img: SliderImage23,
   },
 ];
 

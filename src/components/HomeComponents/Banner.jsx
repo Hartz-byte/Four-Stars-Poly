@@ -46,6 +46,7 @@ const Banner = ({ items, condition, style }) => {
           flexDirection: isMobile ? "column" : "row",
           gap: isMobile ? "20px" : "",
           alignItems: "center",
+          justifyContent:"center",
           position: "relative",
         }}
       >
@@ -57,6 +58,7 @@ const Banner = ({ items, condition, style }) => {
             display: "flex",
             flexDirection: "column",
             justifyContent: "space-between",
+            alignItems:"center"
           }}
         >
           <Typography
@@ -82,6 +84,7 @@ const Banner = ({ items, condition, style }) => {
         </Box>
 
         {/* 2nd container */}
+        {condition? (
         <Box
           sx={{
             width: "260px",
@@ -110,8 +113,10 @@ const Banner = ({ items, condition, style }) => {
           </Typography>
           <Typography textAlign={"center"}>{items[1].description}</Typography>
         </Box>
+        ):null}
 
         {/* 3rd container */}
+        {!condition? (
         <Box
           sx={{
             width: "260px",
@@ -145,6 +150,7 @@ const Banner = ({ items, condition, style }) => {
             {items[2].description}
           </Typography>
         </Box>
+        ):null}
 
         {/* 4rth container */}
         <Box
@@ -182,40 +188,6 @@ const Banner = ({ items, condition, style }) => {
           </Typography>
         </Box>
 
-        {/* 5rth container */}
-        {condition === true ? (
-          <Box
-            sx={{
-              width: "260px",
-              height: !(condition === true) ? "100%" : "200px",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "space-between",
-            }}
-          >
-            <Typography
-              fontWeight={700}
-              fontSize={style & !isMobile ? 20 : 24}
-              textAlign={"center"}
-              color={"#fff"}
-            >
-              <CountUp start={0} end={items[4].count} duration={5} />
-              {items[4]?.title1}
-            </Typography>
-            <Typography
-              fontWeight={700}
-              fontSize={style & !isMobile ? 18 : 20}
-              marginTop={style & !isMobile ? 0.8 : 0}
-              textAlign={"center"}
-              color={"#000080"}
-            >
-              {items[4]?.title2}
-            </Typography>
-            <Typography textAlign={"center"} marginBottom={3}>
-              {items[4]?.description}
-            </Typography>
-          </Box>
-        ) : null}
       </Box>
     </Box>
   );

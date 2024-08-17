@@ -81,7 +81,7 @@ const Navbar = () => {
   };
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1, position:"fixed", width:"100%", zIndex:999 }}>
       {/* app bar */}
       <AppBar position="static">
         <Toolbar variant="dense" className="navbar">
@@ -137,10 +137,10 @@ const Navbar = () => {
               sx={{ marginTop: "50px" }}
             >
               <MenuItem onClick={() => navigate("/products/hdpe-tapes")}>
-                HDPE/PP Tapes
+                PP Tapes
               </MenuItem>
               <MenuItem onClick={() => navigate("/products/woven-fabrics")}>
-                HDPE/PP Woven Fabrics
+                PP Woven Fabrics
               </MenuItem>
               <MenuItem onClick={() => navigate("/products/woven-bags")}>
                 BOPP Laminated Woven Bags
@@ -248,11 +248,11 @@ const Navbar = () => {
               {/* products pages */}
               <Box ml={1} mt={1}>
                 <Typography onClick={handleTapesClick}>
-                  HDPE/PP Tapes
+                  PP Tapes
                 </Typography>
 
                 <Typography onClick={handleFabricsClick}>
-                  HDPE/PP Woven Fabrics
+                  PP Woven Fabrics
                 </Typography>
 
                 <Typography onClick={handleBagsClick}>

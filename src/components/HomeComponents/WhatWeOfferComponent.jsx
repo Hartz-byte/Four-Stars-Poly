@@ -69,7 +69,7 @@ const WhatWeOfferComponent = () => {
             flexDirection: "column",
             justifyContent: "center",
             alignItems: "center",
-            gap: "20px",
+            gap: "10px",
             borderRadius: "4px",
             padding: "5px",
             cursor: "pointer",
@@ -83,14 +83,11 @@ const WhatWeOfferComponent = () => {
           />
 
           <Typography color={"#000080"} fontWeight={700} fontSize={18}>
-            HDPE/PP Tapes
+            PP Tapes
           </Typography>
 
-          <Typography color={"#B3B3B3"}>
-            High-density polyethylene and <br /> polypropylene tapes, known for
-            their <br />
-            strength and durability, ideal for <br /> various packaging
-            applications.
+          <Typography color={"#B3B3B3"} ml={1}>
+          Polypropylene tapes, known for their strength and durability, ideal for various packaging applications
           </Typography>
         </Box>
 
@@ -118,11 +115,11 @@ const WhatWeOfferComponent = () => {
           />
 
           <Typography color={"#000080"} fontWeight={700} fontSize={18}>
-            HDPE/PP Woven Fabrics
+            PP Woven Fabrics
           </Typography>
 
           <Typography color={"#B3B3B3"}>
-            Versatile and robust woven fabrics <br /> made from HDPE/PP,
+            Versatile and robust woven fabrics <br /> made from PP,
             suitable for <br />
             agricultural, industrial, and <br /> commercial uses, customizable
             to <br />

@@ -14,7 +14,7 @@ import { featuresItem2 } from "../../utils/FeaturesItem";
 import { detailsItem2 } from "../../utils/DetailsItem";
 
 const WovenFabrics = () => {
-  const headerText = "HDPE/PP Woven Fabrics";
+  const headerText = "PP Woven Fabrics";
 
   return (
     <Box>

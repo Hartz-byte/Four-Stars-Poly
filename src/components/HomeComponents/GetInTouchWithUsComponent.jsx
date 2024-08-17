@@ -248,7 +248,7 @@ const GetInTouchWithUsComponent = ({ style }) => {
               >
                 Country<span style={{ color: "#FF0000" }}>*</span>
               </label>
-              <Select
+              {/* <Select
                 id="country"
                 inputProps={{ "aria-label": "Select Country" }}
                 displayEmpty
@@ -271,7 +271,23 @@ const GetInTouchWithUsComponent = ({ style }) => {
                 <MenuItem value="india">India</MenuItem>
                 <MenuItem value="usa">USA</MenuItem>
                 <MenuItem value="uk">UK</MenuItem>
-              </Select>
+              </Select> */}
+              <input
+                id="country"
+                type="text"
+                placeholder="Enter your Country"
+                value={country}
+                onChange={(e) => setCountry(e.target.value)}
+                style={{
+                  height: "38px",
+                  // width: !isMobile ? "357px" : "",
+                  width: !isMobile ? "265px" : "",
+                  borderRadius: "2px",
+                  border: "none",
+                  backgroundColor: "#F5F6F7",
+                  paddingLeft: "20px",
+                }}
+              />
             </Box>
           </Box>
 
@@ -317,9 +333,9 @@ const GetInTouchWithUsComponent = ({ style }) => {
                 >
                   Select your Products
                 </MenuItem>
-                <MenuItem value="hdpe-tapes">Hdpe Tapes</MenuItem>
-                <MenuItem value="woven-bags">Woven Bags</MenuItem>
-                <MenuItem value="woven-fabrics">Woven Fabrics</MenuItem>
+                <MenuItem value="hdpe-tapes">PP Tapes</MenuItem>
+                <MenuItem value="woven-bags">PP Woven Fabrics</MenuItem>
+                <MenuItem value="woven-fabrics">BOPP Lminated Woven Bags</MenuItem>
               </Select>
             </Box>
 

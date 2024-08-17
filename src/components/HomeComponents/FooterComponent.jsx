@@ -33,10 +33,10 @@ const FooterComponent = ({ style }) => {
     >
       {/* logo and social links */}
       <Box>
-        <img src={Logo} alt="logo" />
+        <img src={Logo} alt="logo" style={{marginBottom:"80px"}} />
 
         {/* social links */}
-        <Box
+        {/* <Box
           sx={{
             display: "flex",
             justifyContent: !isMobile ? "center" : "",
@@ -49,7 +49,7 @@ const FooterComponent = ({ style }) => {
           <Instagram sx={{ color: "white", cursor: "pointer" }} />
           <YouTube sx={{ color: "white", cursor: "pointer" }} />
           <LinkedIn sx={{ color: "white", cursor: "pointer" }} />
-        </Box>
+        </Box> */}
       </Box>
 
       {/* quick links */}
@@ -86,10 +86,10 @@ const FooterComponent = ({ style }) => {
 
         <Box sx={{ display: "flex", flexDirection: "column", gap: "10px" }}>
           <NavLink to="/products/hdpe-tapes">
-            <Typography color={"white"}>HDPE/PP Tapes</Typography>
+            <Typography color={"white"}>PP Tapes</Typography>
           </NavLink>
           <NavLink to="/products/woven-fabrics">
-            <Typography color={"white"}>HDPE/PP Woven Fabrics</Typography>
+            <Typography color={"white"}>PP Woven Fabrics</Typography>
           </NavLink>
           <NavLink to="/products/woven-bags">
             <Typography color={"white"}>BOPP Laminated Woven Bags</Typography>

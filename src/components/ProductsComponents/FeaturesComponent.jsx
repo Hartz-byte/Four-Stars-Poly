@@ -34,7 +34,7 @@ const FeaturesComponent = ({ items }) => {
           color={"#000080"}
           position="relative"
         >
-          Features of HDPE/PP Tapes
+          Features of PP Tapes
         </Typography>
       </Box>
 

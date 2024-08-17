@@ -14,7 +14,7 @@ import { featuresItem1 } from "../../utils/FeaturesItem";
 import { detailsItem } from "../../utils/DetailsItem";
 
 const HdpeTapes = () => {
-  const headerText = "HDPE/PP Tapes";
+  const headerText = "PP Tapes";
 
   return (
     <Box>

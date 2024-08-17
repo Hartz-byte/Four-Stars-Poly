@@ -13,7 +13,7 @@ const IntroductionComponent = ({ items, pics, condition, image }) => {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        marginBottom: isMobile ? "0px" : "40px",
+        // marginBottom: isMobile ? "0px" : "40px",
       }}
     >
       {/* title */}
@@ -36,6 +36,7 @@ const IntroductionComponent = ({ items, pics, condition, image }) => {
           fontWeight={700}
           fontSize={24}
           color={"#000080"}
+          
         >
           {items[0].title}
         </Typography>
@@ -58,6 +59,7 @@ const IntroductionComponent = ({ items, pics, condition, image }) => {
             width: !isMobile ? "1128px" : "400px",
             height: "160px",
             marginTop: "40px",
+            marginBottom:"30px"
           }}
         >
           {/* description */}

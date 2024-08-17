@@ -50,7 +50,7 @@ const Infrastructure = () => {
       <ProductionLineComponent />
 
       {/* quality approvals component */}
-      <QualityApprovalComponent />
+      {/* <QualityApprovalComponent /> */}
 
       {/* quality services component */}
       <QualityServicesComponent style={true} />

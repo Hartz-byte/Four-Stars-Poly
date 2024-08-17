@@ -11,7 +11,7 @@ export const featuresItem1 = [
     pic: Pic1,
     title: "High Tensile Strength",
     description:
-      "HDPE/PP tapes offer excellent tensile strength, making them ideal for applications requiring strong, reliable binding and reinforcement.",
+      "PP tapes offer excellent tensile strength, making them ideal for applications requiring strong, reliable binding and reinforcement.",
   },
   {
     pic: Pic2,
@@ -23,13 +23,13 @@ export const featuresItem1 = [
     pic: Pic3,
     title: "Customizability",
     description:
-      "HDPE/PP tapes can be customized in terms of width, thickness, color, and printing.",
+      "PP tapes can be customized in terms of width, thickness, color, and printing.",
   },
   {
     pic: Pic4,
     title: "Eco-Friendly",
     description:
-      "HDPE and PP tapes are recyclable, contributing to environmentally friendly packaging solutions.",
+      "PP tapes are recyclable, contributing to environmentally friendly packaging solutions.",
   },
 ];
 
@@ -38,7 +38,7 @@ export const featuresItem2 = [
     pic: Pic1,
     title: "High Tensile Strength",
     description:
-      "HDPE/PP woven fabrics are known for their exceptional tensile strength, making them ideal for heavy-duty applications.",
+      "PP woven fabrics are known for their exceptional tensile strength, making them ideal for heavy-duty applications.",
   },
   {
     pic: Pic2,
@@ -56,7 +56,7 @@ export const featuresItem2 = [
     pic: Pic5,
     title: "UV Resistance",
     description:
-      "HDPE/PP woven fabrics are designed to resist UV radiation, preventing degradation when exposed to sunlight.",
+      "PP woven fabrics are designed to resist UV radiation, preventing degradation when exposed to sunlight.",
   },
 ];
 
